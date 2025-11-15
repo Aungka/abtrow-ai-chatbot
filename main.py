@@ -415,7 +415,7 @@ def chat_endpoint():
 
     try:
         completion = client.chat.completions.create(
-            model="gpt-4.1-mini",
+            model="gpt-5-mini",
             messages=[
                 {"role": "system", "content": ABTROW_PROMPT},
                 {"role": "user", "content": user_message},
